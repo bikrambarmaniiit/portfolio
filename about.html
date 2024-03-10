@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="about.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <img class="navitem" src="logo.png.png" alt="">
+    <div id="links">
+        <a  onclick="redirectToHome()">Home</a>
+        <a   onclick="redirectToAbout()">About</a>
+        <a   onclick="redirectToSkill()">Skill</a>
+        <a  onclick="redirectToProject()">Project</a>
+        <a  onclick="redirectToContact()">Contact</a>
+     
+    </div>
+  </nav>
+  <div class="responsive-container-block bigContainer">
+    <div class="responsive-container-block Container">
+      <p class="text-blk heading">
+        About Me
+      </p>
+      <p class="text-blk subHeading">
+        Hey, I'm Bikram Barman, a student at IIIT Allahabad. Welcome to my corner of the web! I'm passionate about technology, coding, and exploring new ideas. Join me on this journey of learning and discovery!
+      </p>
+      <div class="social-icons-container">
+        <a class="social-icon" onclick="openFacebook()">
+          <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png">
+        </a>
+        <a class="social-icon" onclick="openInstagram()">
+          <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png">
+        </a>
+        <a class="social-icon" onclick="openLinkedIn()">
+          <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png">
+        </a>
+      </div>
+    </div>
+    <script>
+      function openFacebook() {
+        window.open('https://www.facebook.com/profile.php?id=100094133954820');
+      }
+  
+      function openInstagram() {
+        window.open('https://www.linkedin.com/feed/');
+      }
+  
+      function openLinkedIn() {
+        window.open('https://www.instagram.com/bikrambarman9932/');
+      }
+    </script>
+    <script>
+      function redirectToHome() {
+         window.location.href='index.html';
+      }
+      function redirectToAbout() {
+          window.location.href='about.html';
+      }
+      function redirectToContact() {
+          window.location.href='contact.html';
+      }
+      function redirectToProfile() {
+         window.location.href = 'profile.html';
+      }
+      function redirectToSkill() {
+           window.location.href = 'skill.html';
+      }
+      function redirectToProject(){
+            window.location.href='project.html';
+        }
+    </script>
+  </div>
+  
+</body>
+</html>

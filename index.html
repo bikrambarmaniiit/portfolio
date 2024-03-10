@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div id="wrapperload">
+            <div class="elem">
+                <img src="name.png" alt="">
+            </div>
+            <div class="elem">
+                <h3>Website Developer</h3>
+            </div>
+            <div class="elem">
+                <h3>"Student at IIIT ALLAHBAD"</h3>
+            </div>
+            <div class="elem">
+                <img src="name.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="back">
+        <nav>
+            <img class="navitem" src="logo.png.png" alt="">
+            <div id="links">
+                <a >Home</a>
+                <a   onclick="redirectToAbout()">About</a>
+                <a   onclick="redirectToSkill()">Skill</a>
+                <a  onclick="redirectToProject()">Project</a>
+                <a  onclick="redirectToContact()">Contact</a>
+               
+            </div>
+        </nav>
+        <div id="sections">
+          
+            <div id="left">
+                <div id="smalline"></div>
+                <h4 >Hello, I am 👋🏻</h4>
+                <h5 >Bikram Barman</h5>
+                <h5 >a web-developer from <span id="lblue">India.</span></h5>
+                <div  id="playbtn" onclick="redirectToProfile()">
+                    <img src="playButton.png" alt="">
+                    <h5>see my <span class="bold">portfolio</span></h5>
+                </div>
+
+            </div>
+            
+            <div id="right">
+                <img  id="pic" src="bikrampng.png" alt="">
+                
+            </div>
+        </div>
+    </div>
+
+   
+   
+     <script>
+        function redirectToAbout(){
+            window.location.href='about.html';
+        }
+        function redirectToProject(){
+            window.location.href='project.html';
+        }
+        function redirectToContact(){
+            window.location.href='contact.html';
+        }
+    function redirectToProfile() {
+       window.location.href = 'profile.html';
+    }
+    function redirectToSkill() {
+             window.location.href = 'skill.html';
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+html{
+  font-family: 'Open Sans',sans-serif;
+  background: whitesmoke;
+}
+
+#container{
+  position: relative;
+  display: flex;
+}
+#profile{
+  flex: 15%;
+  display: block;
+  position: relative;
+  margin: 5% 2% 0 10%;
+  width: 100%;
+  height: 100%;
+}
+#info-cards{
+  flex: 55%;
+  display: block;
+  margin-top: 5%;
+  margin-right: 10%;
+  width: 100%;
+  height: 100%;
+}
+#image{
+  position: relative;
+  overflow: hidden;
+}
+#image,#profile-photo{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+
+
+#name{
+  font-size: 23px ;
+  line-height: 20px ;
+}
+#about,.card > ul > li{
+  padding: 0 0 0 15px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+#about{
+  font-size: 20px ;
+  padding: 0 ;
+}
+#name, #about > p{
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+}
+#email{
+  font-size: 15px ;
+  font-weight: bold ;
+  font-family: 'Cutive Mono',monospace;
+}
+#year-graduation,#education,#telephone{
+  color: #555;
+  font-size: 13.5px;
+}
+strong,span{
+  color: black;
+  font-size: 16px;
+}
+
+.card{
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+  overflow-x: hidden;
+  margin-bottom: 30px;
+  padding: 15px 30px 30px 30px;
+  background-color: #fff;
+}
+.card > p{
+  color: #0e141e;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 2;
+}
+
+
+.card > ul{
+  list-style-type: none;
+}
+.tags{
+  font-size: 17px;
+  font-weight: bolder;
+}
+.tags ~ a{
+  display: none !important;
+}
+.tags span{
+  font-size: 14px;
+  font-weight: normal;
+  color: #0e141e;
+}
+
+@media screen and (max-width:1090px){
+  #profile{
+      margin-left: 5%;
+  }
+}
+@media screen and (max-width:850px){
+  #container{
+      display: block;
+  }
+  #profile{
+      width: 90%;
+  }
+  .card{
+      margin: 0 5%;
+      margin-bottom: 30px;
+  }
+}

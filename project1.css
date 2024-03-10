@@ -1,0 +1,121 @@
+
+body {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+.backg{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    
+   
+}
+#leftbackground{
+    height: 100%;
+    position:relative;
+    left: 0;
+    width: 50%;
+    opacity: 0%;
+   
+    
+    
+    
+    
+    
+    background-size: cover;
+ 
+}
+#csim{
+   width: 100%;
+   
+
+    position: absolute;
+    filter: blur(8px);
+  
+}
+#csim2{
+  width: 100%;
+  
+
+     position: absolute;
+     filter: blur(8px);
+   
+ }
+ 
+
+#email{
+    position: absolute;
+   
+    top: 560px;
+    margin-left: 265px;
+    
+ 
+}
+#email2{
+    position: absolute;
+    
+    top: 560px;
+    margin-left: 265px;
+    
+    
+    
+}
+h6{
+    position: absolute;
+    top: 610px;
+    margin-left: 335px;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+h6:hover{
+     font-size: 10px;
+     
+     
+}
+#password{
+    position: absolute;
+   
+    top: 610px;
+    margin-left: 265px;
+
+}
+#password2{
+    position: absolute;
+  
+    top: 610px;
+    margin-left: 265px;
+    
+}
+#Sign{
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    margin-left: 300px;
+}
+#Log{
+    position: absolute;
+    text-align: center;
+    float:right;
+    top: 500px;
+    margin-left: 300px;
+  
+}
+
+#rightbackground{
+    height: 100%;
+    position:absolute;
+    right: 0;
+    width: 50%;
+    
+    
+    transition: opacity 0.5s, transform 0.5s;
+    
+    background-size: cover;
+ 
+
+}
+

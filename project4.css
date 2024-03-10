@@ -1,0 +1,63 @@
+body{
+    background-color:#3A6EA5;
+   text-align: center;
+   position: relative;
+   
+}
+#heading{
+    font-size: 40px;
+    background-color: #3A6EA5;
+    text-align: center;
+    margin: 0;
+    
+
+    padding: 12px;
+
+}
+
+table{
+    display: flex;
+  justify-content: center;
+    text-align: center;
+   
+}
+#button{
+   margin-top: 80px;
+   position: absolute;
+
+   margin-left: 50px;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+button:hover{
+  transform: scale(1.1);
+  color: black;
+  background-color: #004E98;
+}
+img{
+ 
+  text-align: center;
+ 
+ 
+  
+   
+}
+ 
+.result-card {
+    display: none; 
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
