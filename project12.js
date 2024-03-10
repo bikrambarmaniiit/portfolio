@@ -1,4 +1,4 @@
-const API_KEY="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";
+const API_KEY="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";
 const submitIcon=document.querySelector(".enter");
 const inputElement=document.querySelector("input");
 const imageSection=document.querySelector(".images-section");
